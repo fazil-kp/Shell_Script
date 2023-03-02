@@ -8,7 +8,7 @@ read n2
 while [ $i="y" ]
 do
 echo "1. Addition"
-echo "2.Substraction"
+echo "2.Subtraction"
 echo "3.Multiplication"
 echo "4. Division"
 
