@@ -16,15 +16,15 @@ echo "Enter your choice "
 read ch
 case $ch in
 1) sum="$(( $n1 + $n2 ))"
-echo "$sum"
+echo "Sum = $sum"
 break
 ;;
 2) sub="$(( $n1 - $n2 ))"
-echo "$sub"
+echo "Difference = $sub"
 break
 ;; 
 3) mul="$(( $n1 * $n2 ))"
-echo "$mul"
+echo "Multiplication = $mul"
 break
 ;; 
 4) div="$(( $n1 / $n2 ))"
